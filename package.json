@@ -1,0 +1,52 @@
+{
+  "name": "bootstyles",
+  "description": "Style Bootstrap, showcase on a demo site, and package up the assets for export",
+  "version": "0.0.1",
+  "homepage": "https://github.com/sackio/bootstyles",
+  "author": {
+    "name": "Ben Sack",
+    "email": "ben@sack.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sackio/bootstyles.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sackio/bootstyles/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/sackio/bootstyles/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/bootstyles",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt": "~0.4.5"
+  },
+  "dependencies": {
+    "bootstrap": "*",
+    "async": "*",
+    "express": "4.*",
+    "connect": "3.*",
+    "basic-auth": "*",
+    "serve-static": "*",
+    "morgan": "*",
+    "body-parser": "*",
+    "cookie-parser": "*",
+    "errorhandler": "*",
+    "ejs": "*",
+    "less": "*",
+    "bootswatch": "*"
+  },
+  "keywords": []
+}
