@@ -1,4 +1,4 @@
-# bootstyles [![Build Status](https://secure.travis-ci.org/ben/bootstyles.png?branch=master)](http://travis-ci.org/ben/bootstyles)
+# bootstyles
 
 Style Bootstrap, showcase on a demo site, and package up the assets for export
 
