@@ -35,16 +35,6 @@
   },
   "dependencies": {
     "bootstrap": "*",
-    "async": "*",
-    "express": "4.*",
-    "connect": "3.*",
-    "basic-auth": "*",
-    "serve-static": "*",
-    "morgan": "*",
-    "body-parser": "*",
-    "cookie-parser": "*",
-    "errorhandler": "*",
-    "ejs": "*",
     "less": "*",
     "bootswatch": "*"
   },

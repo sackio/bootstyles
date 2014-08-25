@@ -1,21 +1,62 @@
-@import "/assets/fonts/fonts.css";
+//
+// FONTS
+// --------------------------------------------------
+
+//== Typography
+//
+//## Font, line-height, and color for body text, headings, and more.
 
 @font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif;
 @font-family-serif:       Georgia, "Times New Roman", Times, serif;
+//** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
 @font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
+@font-family-base:        @font-family-sans-serif;
 
-@font-family-opensans:  "Open Sans";
-@font-family-hobo:  "HoboStd";
-@font-family-stencil:  "StencilStd";
-@font-family-typewriter:  "AmericanTypewriterStd-Med";
-@font-family-papyrus:  "PapyrusPlain";
+//** By default, this inherits from the `<body>`.
+@headings-font-family:    inherit;
+@headings-font-weight:    500;
 
-@font-family-base:        @font-family-opensans;
+//== Iconography
+//
+//## Specify custom location and filename of the included Glyphicons icon font. Useful for those including Bootstrap via Bower.
 
-@headings-font-family:    @font-family-papyrus;
+//** Load fonts from this directory.
+@icon-font-path:          "../fonts/";
+//** File name for all font files.
+@icon-font-name:          "glyphicons-halflings-regular";
+//** Element ID within SVG icon file.
+@icon-font-svg-id:        "glyphicons_halflingsregular";
 
-@font-size-base:          14px;
+//== Buttons
+//
+//## For each of Bootstrap's buttons, define text, background and border color.
 
-@line-height-base:        1.428571429; // 20/14
+@btn-font-weight:                normal;
 
+//== Badges
+//
+//##
+
+@badge-font-weight:           bold;
+
+//== Breadcrumbs
+//
+//##
+
+//** Textual separator for between breadcrumb elements
+@breadcrumb-separator:          "/";
+
+
+//== Carousel
+//
+//##
+
+@carousel-text-shadow:                        0 1px 2px rgba(0,0,0,.6);
+
+//== Close
+//
+//##
+
+@close-font-weight:           bold;
+@close-text-shadow:           0 1px 0 #fff;
 
